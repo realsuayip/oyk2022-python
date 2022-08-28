@@ -15,4 +15,4 @@ services:
       - mongodb
   mongodb:
     container_name: mongodb
-    image: mongo:4.2.22
+    image: mongo:5.0.11

@@ -8,7 +8,7 @@ app = FastAPI()
 
 
 @app.get("/")
-async def root():
+def root():
     client = pymongo.MongoClient(CONN_URL, serverSelectionTimeoutMS=5000)
     with client:
         return client.server_info()
