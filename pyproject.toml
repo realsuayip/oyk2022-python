@@ -1,0 +1,9 @@
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+known_fastapi = "fastapi"
+sections = "FUTURE,STDLIB,FASTAPI,THIRDPARTY,FIRSTPARTY,LOCALFOLDER"
+combine_as_imports=true
+line_length = 79
